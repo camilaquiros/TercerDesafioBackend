@@ -19,7 +19,7 @@ export default class ProductManager {
     }
 }
 
-class Product extends ProductManager {
+class Product {
     contructor(title,category, price, description, image, stock) {
         this.id = id;
         this.title = title;
